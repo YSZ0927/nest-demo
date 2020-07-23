@@ -3,8 +3,8 @@
 module.exports = {
 
   types: [
-    { value: 'WIP',         name : '🚧  WIP:            开发中' },
-    { value: 'feat',        name : '✨  feat:           一个新特性' },
+    { value: 'WIP',         name : '🚧  WIP:            开发中...' },
+    { value: 'feat',        name : '✨  feat:           增加新功能' },
     { value: 'improvement', name : '➕  improvement:    对现有特性的提升' },
     { value: 'fix',         name : '🐛  fix:            修复Bug' },
     { value: 'refactor',    name : '🛠  refactor:       代码重构，注意和特性、重构区分开' },
@@ -15,15 +15,8 @@ module.exports = {
     { value: 'perf',        name : '📈  perf:           性能提升' },
     { value: 'ci',          name : '🔧  ci:             修改ci相关配置、脚本等' },
     { value: 'revert',      name : '⏪  revert:         回退版本' },
-    { value: 'chore',       name : '🗯  chore:          杂务，不属于以上类型，例如run build、引入或更新软件包等' },
+    { value: 'chore',       name : '🗯  chore:          杂务，非 src 和 test 的修改' },
   ],
-
-  // scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
-
-  // allowTicketNumber: false,
-  // isTicketNumberRequired: false,
-  // ticketNumberPrefix: 'TICKET-',
-  // ticketNumberRegExp: '\\d{1,5}',
 
   messages: {
     type: '选择一种你的提交类型:',
